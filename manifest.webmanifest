@@ -1,0 +1,10 @@
+{
+  "name": "Tudant design preview",
+  "short_name": "Tudant",
+  "start_url": "/tudant/",
+  "scope": "/tudant/",
+  "display": "standalone",
+  "background_color": "#f7f6f3",
+  "theme_color": "#f7f6f3",
+  "icons": []
+}

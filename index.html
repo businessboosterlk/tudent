@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f7f6f3" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="manifest" href="/tudant/manifest.webmanifest" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>Tudant design preview</title>
+  <style>
+    .preview-note {
+      position: relative; z-index: 50;
+      padding: calc(10px + env(safe-area-inset-top, 0px)) 20px 10px;
+      text-align: center;
+      font: 13px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: #6f6b64;
+    }
+    .preview-note a { color: #22577a; }
+    .book-scene { min-height: calc(100dvh - 128px); }
+  </style>
+  <script type="module" crossorigin src="/tudant/assets/index-Da830sTR.js"></script>
+  <link rel="stylesheet" crossorigin href="/tudant/assets/index-DEICk5HA.css">
+</head>
+<body>
+  <p class="preview-note">Design preview. Sign-in is switched off and nothing here connects to a database.</p>
+  <div id="app">
+    <nav aria-label="Open Tudant" style="min-height:60dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:20px">
+      <strong style="font-size:26px">Tudant</strong>
+      <p>Made for tuition.</p>
+      <a href="#teacher">For teachers</a>
+      <a href="#student">For students</a>
+    </nav>
+  </div>
+  <p class="preview-note" style="padding-top:0;padding-bottom:calc(16px + env(safe-area-inset-bottom, 0px))">
+    <a id="preview-home" href="#" hidden>Back to the cover</a>
+  </p>
+</body>
+</html>
