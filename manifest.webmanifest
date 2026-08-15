@@ -1,8 +1,8 @@
 {
-  "name": "Tudant design preview",
-  "short_name": "Tudant",
-  "start_url": "/tudant/",
-  "scope": "/tudant/",
+  "name": "Tudent design preview",
+  "short_name": "Tudent",
+  "start_url": "/tudent/",
+  "scope": "/tudent/",
   "display": "standalone",
   "background_color": "#f7f6f3",
   "theme_color": "#f7f6f3",

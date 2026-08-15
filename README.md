@@ -1,6 +1,6 @@
-# Tudant · design preview
+# Tudent · design preview
 
-Static build of the Tudant entry screens, published so the design can be held
+Static build of the Tudent entry screens, published so the design can be held
 on a real phone. **Sign-in is switched off** and this build contains no
 database client, no keys and no network calls of any kind.
 
