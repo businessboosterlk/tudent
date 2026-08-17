@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f7f6f3" />
+  <!-- Installability. The manifest, the icons and a service worker are the
+       three things a browser wants before it will offer "Add to home screen".
+       Icons are BUILD OUTPUT of packages/ui/icons: run scripts/build-icons.mjs,
+       never hand-edit a PNG. Every one uses the SMALL CUT, because an icon is
+       always small and the five-figure mark is illegible below about 64px
+       (BRAND section 11, 2026-08-15). -->
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./icons/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="./icons/favicon-32.png" sizes="32x32" type="image/png" />
+  <link rel="icon" href="./icons/favicon-16.png" sizes="16x16" type="image/png" />
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Tudent" />
+  <title>Tudent for teachers</title>
+  
+  <script type="module" crossorigin src="./assets/index-B1oFt3qS.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DWlmt_m2.css">
+</head>
+<body>
+  <div class="statusfill" aria-hidden="true"></div>
+  <div id="app"></div>
+</body>
+</html>

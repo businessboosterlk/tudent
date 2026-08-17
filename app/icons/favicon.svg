@@ -1,0 +1,27 @@
+<!-- THE SMALL CUT. Not a downscale of the full mark: a different drawing for
+     a different size, per Thulaib's ruling of 2026-08-15.
+
+     WHY THE FULL MARK CANNOT BE SHRUNK. It is five figures across a 390-unit
+     width. At 16px each figure gets about three pixels with gaps between
+     them, so the four teachers collapse into a striped smudge and the student
+     disappears entirely. That is objection 2 from BRAND section 11, which was
+     restated and NOT withdrawn when the mark was approved.
+
+     WHAT THIS IS. The student, taken unaltered from the full mark: the same
+     head circle and the same shoulder arc, same coordinates, recentred. It is
+     the mark's own geometry, so the two read as one identity rather than two
+     logos.
+
+     WHY THE STUDENT RATHER THAN THE GROUP. At icon size only one figure can
+     survive, and the product is one student's record following them across
+     several teachers. A single figure also answers the two objections the
+     large mark carries as a named exception: it is ONE accent, and it holds
+     in greyscale because it is distinguished by shape, not hue.
+
+     White on the accent tile, matching the cover, where the student is also
+     reversed to warm white against navy. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="115 159 170 170" width="170" height="170">
+  <rect x="115" y="159" width="170" height="170" fill="#22577a"/>
+  <circle cx="199.5" cy="206" r="31.5" fill="#fffdf8"/>
+  <path d="M145 313a54.5 54.5 0 0 1 109 0z" fill="#fffdf8"/>
+</svg>

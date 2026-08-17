@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f7f6f3" />
+  <!-- Installability. The manifest, the icons and a service worker are the
+       three things a browser wants before it will offer "Add to home screen".
+       Icons are BUILD OUTPUT of packages/ui/icons: run scripts/build-icons.mjs,
+       never hand-edit a PNG. Every one uses the SMALL CUT, because an icon is
+       always small and the five-figure mark is illegible below about 64px
+       (BRAND section 11, 2026-08-15). -->
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./icons/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="./icons/favicon-32.png" sizes="32x32" type="image/png" />
+  <link rel="icon" href="./icons/favicon-16.png" sizes="16x16" type="image/png" />
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Tudent" />
+  <title>Tudent</title>
+  <script type="module" crossorigin src="./assets/index-B_msqRjf.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DWlmt_m2.css">
+</head>
+<body>
+  <div class="statusfill" aria-hidden="true"></div>
+  <div id="app">
+    <!-- Usable navigation BEFORE any enhancement: if no script ever runs,
+         these ordinary links still route. The app replaces this node. -->
+    <nav aria-label="Open Tudent" style="min-height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:20px">
+      <strong style="font-size:26px">Tudent</strong>
+      <p>Made for tuition.</p>
+      <a href="../teacher/" data-nojs-teacher>For teachers</a>
+      <a href="#student" data-nojs-student>For students</a>
+      <noscript><p>Tudent needs JavaScript to sign you in. The links above
+      still take you to the right door.</p></noscript>
+    </nav>
+  </div>
+</body>
+</html>
